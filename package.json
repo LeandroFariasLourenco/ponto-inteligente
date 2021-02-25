@@ -1,0 +1,12 @@
+{
+  "name": "ponto-inteligente-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd back-end && ./mvnw.cmd spring-boot:run && cd .. && cd front-end && ng serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

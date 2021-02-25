@@ -3,7 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { LoginModule } from './modules';
+import {
+  LoginModule,
+  LoginRoutingModule,
+  RegisterFpModule,
+  RegisterJpModule
+} from './modules';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,7 +21,12 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
+
     LoginModule,
+    LoginRoutingModule,
+
+    RegisterFpModule,
+    RegisterJpModule,
 
     AppRoutingModule
   ],
